@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Practica 1</title>
+        <link rel="stylesheet" href="css/stilo.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Practica 1</h1>
+            </div>
+            <nav>
+                <div>
+                    <h1>Home</h1>
+                    <button type="button" onclick='document.getElementById("home").innerHTML = "<p>Las ramas de Git Flow permiten separar las tareas de desarrollo, preparación de versiones y mantenimiento, facilitando un flujo de trabajo organizado y controlado.</p>"'>Home</button>
+                </div>
+                <div><p></p></div>
+                <div><p></p></div>
+                <div><p></p></div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h3>Gitflow</h3>
+                <h5>Ramas de Git Flow</h5>
+                <ul id="home">
+                    <li><p><strong>main:</strong> contiene las versiones estables y listas para producción del proyecto.</p></li>
+                    <li><p><strong>develop:</strong> reúne los cambios de desarrollo que se incorporarán en futuras versiones.</p></li>
+                    <li><p><strong>feature:</strong> se utiliza para desarrollar nuevas funcionalidades de forma aislada, partiendo de develop. Una vez terminadas, se integran de nuevo en esta rama.</p></li>
+                    <li><p><strong>release:</strong> permite preparar una nueva versión, realizar pruebas y corregir errores antes de publicarla. Al finalizar, se integra en main y en develop.</p></li>
+                    <li><p><strong>hotfix:</strong> sirve para corregir errores críticos detectados en producción. Se crea desde main y, una vez resuelto el problema, los cambios se integran tanto en main como en develop.</p></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

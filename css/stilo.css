@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+nav div {
+    border: 2px solid grey;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
